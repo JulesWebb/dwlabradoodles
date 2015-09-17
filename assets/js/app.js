@@ -2,8 +2,7 @@ $(document).foundation();
 
     /* trigger modal by event */
     //$('#cta').foundation('reveal', 'click');
-    //$('a.reveal-link').trigger('click');
-    //$('a.close-reveal-modal').trigger('click');
+
 
 
 
@@ -12,7 +11,7 @@ $(document).foundation();
          $('img[src*="svg"]').attr('src', function () {
              return $(this).attr('src').replace('.svg', '.png');
          });
- }
+    }
 
 //function sideNav() {
 //  if ($(window).width() < 769) {
@@ -23,7 +22,7 @@ $(document).foundation();
 //    $('.left-off-canvas-toggle').hide();
 //  }
 //}
-
+//
 //$(window).resize(function() {
 //  sideNav();
 //});
