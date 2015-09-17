@@ -1,0 +1,98 @@
+
+//----------------------------------------------------------
+// BOX SHADOW USED IN MAIN NAV DROP DOWN MENU (DESK TOP)
+//----------------------------------------------------------
+@mixin box-shadow( $h: 10px , $v: 10px , $b: 0px , $s: 0px , $c: #000000 ) {
+    -webkit-box-shadow: $h $v $b $s $c;
+    -moz-box-shadow: $h $v $b $s $c;
+    box-shadow: $h $v $b $s $c;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+//-------------------------------------------------
+// COLOR GRADIENT FOR LEFT OF LOGO (DESK TOP)
+//-------------------------------------------------
+@mixin dw-gradient_left {
+    // Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00bfdf+0,8b0204+50,f7931d+100 */
+    background: #00bfdf; /* Old browsers */
+    // IE9 SVG, needs conditional override of 'filter' to 'none'
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwYmZkZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzhiMDIwNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmNzkzMWQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(left,  #00bfdf 0%, #8b0204 50%, #f7931d 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#00bfdf), color-stop(50%,#8b0204), color-stop(100%,#f7931d)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #00bfdf 0%,#8b0204 50%,#f7931d 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  #00bfdf 0%,#8b0204 50%,#f7931d 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  #00bfdf 0%,#8b0204 50%,#f7931d 100%); /* IE10+ */
+    background: linear-gradient(to right,  #00bfdf 0%,#8b0204 50%,#f7931d 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00bfdf', endColorstr='#f7931d',GradientType=1 ); /* IE6-8 */
+}
+
+//-------------------------------------------------
+// COLOR GRADIENT FOR RIGHT OF LOGO (DESK TOP)
+//-------------------------------------------------
+@mixin dw-gradient_right {
+    // Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7931d+0,8b0204+50,00bfdf+100 *
+    background: #f7931d; /* Old browsers */
+    // IE9 SVG, needs conditional override of 'filter' to 'none'
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y3OTMxZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzhiMDIwNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMGJmZGYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(left,  #f7931d 0%, #8b0204 50%, #00bfdf 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#f7931d), color-stop(50%,#8b0204), color-stop(100%,#00bfdf)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #f7931d 0%,#8b0204 50%,#00bfdf 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  #f7931d 0%,#8b0204 50%,#00bfdf 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  #f7931d 0%,#8b0204 50%,#00bfdf 100%); /* IE10+ */
+    background: linear-gradient(to right,  #f7931d 0%,#8b0204 50%,#00bfdf 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7931d', endColorstr='#00bfdf',GradientType=1 ); /* IE6-8 */
+
+}
+
+
+//-------------------------------------------------
+// GHOST BUTTON
+//-------------------------------------------------
+@mixin ghost-button($font, $font-size, $font-color, $border-size, $border-color, $padding, $transition-speed, $hover-color) {
+    display:inline-block;
+    text-decoration:none;
+    //text-transform:uppercase;
+    font-family: $font;
+    font-size: $font-size;
+    color:$font-color;
+    background-color:transparent;
+    border:$border-size solid $border-color;
+    padding:$padding;
+    -webkit-transition: color $transition-speed, background $transition-speed;
+    transition: color $transition-speed, background $transition-speed;
+    border-radius: 0 !important;
+    &:hover {
+        background:$border-color;
+        color:$hover-color;
+        border-color:$border-color;
+    }
+}
+
+@mixin f_iconmoon ($font-size, $content){
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	// Better Font Rendering
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+    font-size: $font-size;
+    content: $content;
+}
+
+//-------------------------------------------------
+// SEMI TRANSPARENT COLORS http://thesassway.com/intermediate/mixins-for-semi-transparent-colors
+//-------------------------------------------------
+@mixin alpha-attribute($attribute, $color, $background) {
+  $percent: alpha($color) * 100%;
+  $opaque: opacify($color, 1);
+  $solid-color: mix($opaque, $background, $percent);
+  #{$attribute}: $solid-color;
+  #{$attribute}: $color;
+}
+

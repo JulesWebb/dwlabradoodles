@@ -1,8 +1,8 @@
-@import "settings";
-@import "foundation";
+@import "settings",
+	"../bower_components/foundation/scss/foundation";
 
 // Or selectively include components
-// @import
+@import
 //   "foundation/components/accordion",
 //   "foundation/components/alert-boxes",
 //   "foundation/components/block-grid",
@@ -36,5 +36,14 @@
 //   "foundation/components/tooltips",
 //   "foundation/components/top-bar",
 //   "foundation/components/type",
-//   "foundation/components/offcanvas",
+     "../bower_components/foundation/scss/foundation/components/offcanvas";
 //   "foundation/components/visibility";
+
+@import
+	"components/mixins",
+    "components/fonts",
+	"components/nav",
+	"components/footer",
+	"components/modules",
+	"components/pages",
+	"components/global";

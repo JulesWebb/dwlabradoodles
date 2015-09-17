@@ -1,0 +1,144 @@
+{% block content %}
+
+<!-- =============================================================== -->
+<!-- !   http://lisacatalano.github.io/brackets_course/pc.html       -->
+<!-- !   https://github.com/adobe/brackets/wiki/Brackets-Shortcuts   -->
+<!-- =============================================================== -->
+
+
+    <!-- HEADER -->
+    {% include "header" %}
+    <!-- End HEADER -->
+
+
+<main>
+
+    <section> <!-- START: create section: Hero, Intro, Dog Stats, Gallery   -->
+
+
+        <!-- ========================================= -->
+        <!-- !            HERO HEADER       http://codepen.io/dropside/pen/bxhke         -->
+        <!-- ========================================= https://www.fourfront.us/blog/jquery-window-width-and-media-queries -->
+        <div class="our-breeding-dogs hero" style="background-image:url('../../assets/img/pgs/hero_breeding-labradoodle_liberty_large.jpg');">
+            <div class="bkgd-gradient_blk title-bkgd"></div>
+            <div class="row">
+                <div class="large-12 columns table">
+                    <div class="container table">
+                        <div class="cell bottom">
+                            <h2 class="page-title">Breeding Labradoodle: Liberty</h2>
+                        </div>
+                    </div><!-- row	-->
+                </div><!-- container	-->
+            </div><!-- row	-->
+        </div><!-- hero	-->
+
+
+
+
+
+
+        <!-- ============================================== -->
+        <!-- !                  INTRO                       -->
+        <!-- ============================================== -->
+        <div class="custom-panel grey" id="intro">
+            <div class="row">
+                <div class="large-12 columns">
+                    <h3 itemprop="name">Desert Waves Statue at Liberty, "Liberty"</h3>
+                    <div itemprop="description">
+                        <p>We named this beautiful girl "Statue at Liberty", because she has such stunning structure that she literally looks like a statue in motion. We love her structure, the shape of her head, her big round sparkling chestnut eyes – everything about her. She comes from our favorite lines which are known for producing the most rock solid temperaments in the labradoodle breed. A number of service dogs have come from these lines. She is intelligent, eager to learn and very friendly. We are excited about the outstanding Multigeneration Australian Labradoodle puppies she will be producing for us.</p>
+                    </div>
+                </div>
+            </div><!-- row	-->
+        </div><!-- intro	-->
+
+
+
+
+
+        <!-- ============================================== -->
+        <!-- !              DOG STATISTICS                  -->
+        <!-- ============================================== -->
+        <div class="custom-panel red">
+            <div class="row">
+                <div class="large-12 columns large-centered">
+
+                    <div class="row dog-stats">
+                        <div class="large-5  medium-5 columns">
+
+                            <h3>Liberty's Info</h3>
+                            <ul class="no-bullet">
+                                <li itemprop="description"><strong>ALAA Registration No</strong>: ALAA-026641</li>
+                                <li itemprop="description"><strong>Mom</strong>: Hale's Rosalita</li>
+                                <li itemprop="description"><strong>Dad</strong>: Hale's Chocolate Chiago</li>
+                                <li itemprop="description"><strong>Color</strong>: Chocolate</li>
+                                <li itemprop="description"><strong>Coat</strong>: Curly Fleece</li>
+                                <li itemprop="description"><strong>Size</strong>: Standard - 21" at the shoulder, 38 lbs</li>
+                            </ul>
+
+
+                        </div>
+
+                        <div class="large-2 medium-1 columns show-for-medium-up">
+                        </div>
+
+                        <div class="large-5 medium-5 columns">
+
+                            <h3>Health Clearances</h3>
+                            <ul class="cklist" >
+                                <li itemprop="description">Hips OFA Prelim - good</li>
+                                <li itemprop="description">Elbows - normal</li>
+                                <li itemprop="description">CERF - no inhertited eye disease found</li>
+                                <li itemprop="description">Thyroid levels - normal</li>
+                                <li itemprop="description">Patella luxation - normal</li>
+                                <li itemprop="description">Cardiac Exam - Normal</li>
+                                <li itemprop="description">vWD - clear by parentage</li>
+                            </ul>
+
+                        </div>
+                    </div><!-- row	-->
+
+                </div>
+            </div><!-- row	-->
+        </div><!-- panel red	-->
+
+
+
+
+
+        <!-- ============================================== -->
+        <!-- !              GRID GALLERY                    -->
+        <!-- ============================================== -->
+        <div class="contain-to-grid">
+            <div class="gallery">
+                <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4">
+                    <!-- GALLERY -->
+                    {% include "hm_gallery" %}
+                    <!-- End GALLERY -->
+                </ul>
+            </div>
+        </div><!-- full-width	-->
+
+
+
+
+
+    </section> <!-- END: create section: Hero, Intro, Dog Stats, Gallery     -->
+
+
+
+
+    <!-- CTA SIGNUP -->
+    {% include "signup" %}
+    <!-- End CTA SIGNUP -->
+
+
+
+
+</main>
+
+
+    <!-- FOOTER -->
+    {% include "footer" %}
+    <!-- End FOOTER -->
+
+{% endblock %}

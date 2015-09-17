@@ -1,0 +1,59 @@
+// Google Collection Bookmark
+//  https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans+Condensed:300,700|Open+Sans:400,600,700,400italic|Playfair+Display:400,700,900
+// font-family: 'Open Sans Condensed', sans-serif;
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Playfair Display', serif;
+
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:400,400italic,600,700,800|Playfair+Display:400,700,900);
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?e4fx4v');
+	src:url('../fonts/icomoon.eot?#iefixe4fx4v') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf?e4fx4v') format('truetype'),
+		url('../fonts/icomoon.woff?e4fx4v') format('woff'),
+		url('../fonts/icomoon.svg?e4fx4v#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-quote:before { content: "\e606"; }
+.icon-google-plus:before { content: "\e600"; }
+.icon-calendar:before { content: "\e603"; }
+.icon-circle:before { content: "\e604"; }
+.icon-phone:before { content: "\e0da"; }
+.icon-checkmark:before { content: "\e372"; }
+.icon-facebook:before { content: "\e498"; }
+.icon-instagram:before { content: "\e49c"; }
+.icon-twitter:before { content: "\e49d"; }
+.icon-arrow-up:before { content: "\e3b4"; }
+.icon-arrow-right:before { content: "\e3b5"; }
+.icon-arrow-down:before { content: "\e3b6"; }
+.icon-arrow-left:before { content: "\e3b7"; }
+.icon-arrow-up2:before { content: "\e404"; }
+.icon-arrow-right2:before { content: "\e405"; }
+.icon-arrow-down2:before { content: "\e406"; }
+.icon-arrow-left2:before { content: "\e407"; }
+.icon-cancel-square:before { content: "\e601"; }
+.icon-cross:before { content: "\e602"; }
+.icon-menu:before { content: "\e605"; }
+
+

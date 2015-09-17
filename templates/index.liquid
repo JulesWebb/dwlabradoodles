@@ -1,0 +1,302 @@
+{% block content %}
+
+<!-- =============================================================== -->
+<!-- !   http://lisacatalano.github.io/brackets_course/pc.html       -->
+<!-- !   https://github.com/adobe/brackets/wiki/Brackets-Shortcuts   -->
+<!-- =============================================================== -->
+
+
+    <!-- HEADER -->
+    {% include "header" %}
+    <!-- End HEADER -->
+
+
+<main>
+
+    <!-- ========================================= -->
+    <!-- !            HERO HEADER       http://codepen.io/dropside/pen/bxhke         -->
+    <!-- ========================================= -->
+    <div class="hm hero">
+        <div class="row">
+            <div class="large-8 medium-8 columns large-centered medium-centered">
+                <div class="row container">
+                    <div class="cta">
+                        <div class="large-6 medium-6 columns">
+                            <div class="text-center"><a href="available-puppies" class="custom-button ghost">Available Puppies</a></div>
+                        </div>
+                        <div class="large-6 medium-6 columns">
+                            <div class="text-center"><a href="future-litters" class="custom-button ghost">Future Litters</a></div>
+                        </div>
+                    </div>
+                </div><!-- row	-->
+            </div><!-- container	-->
+        </div><!-- row	-->
+    </div><!-- hero	-->
+
+
+
+
+    <section> <!-- START: create section: temperament,   -->
+
+
+        <!-- ============================================== -->
+        <!-- !   TEMPERAMENT - HEALTH - SOUND STRUCTURE     -->
+        <!-- ============================================== -->
+        <div class="custom-panel grey" id="sec_1">
+            <div class="row">
+                <div class="large-12 columns text-center">
+
+                    <h2 class="text-center">Temperament, Health &amp; Sound Structure</h2>
+                    <h3 class="text-center">The Best Dog You'll Ever Love</h3>
+                    <ul class="no-bullet cklist">
+                        <li>Easy to Train</li>
+                        <li>Allergy Friendly</li>
+                        <li>Elegant &amp; Sporty</li>
+                        <li>Soulful &amp; Devoted</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- ============================================== -->
+        <!-- !           RAISING LABRADOODLES               -->
+        <!-- ============================================== -->
+        <div class="custom-panel blue" id="sec_2">
+            <div class="row">
+                <div class="large-12 columns">
+
+                    <div class="row" data-equalizer data-equalizer-mq="large-up">
+                        <div class="large-6 columns" data-equalizer-watch>
+                            <div class="table">
+                            <div class="cell"><h2>Raising Labradoodles</h2></div>
+                            </div>
+                        </div>
+                        <div class="large-6 columns" data-equalizer-watch>
+                            <div>
+                                <p>My husband, Dr. Mark Medldleton, DVM and I, Becky Meddleton, take great pleasure in raising our labradoodles. We are located near Albuquerque, New Mexico, often called the Land of Enchantment. We consider Labradoodles to be the dogs of Enchantment. They have gentle and kind spirits mixed with just the right amount of playfulness. They are smart, social, loyal, and easy to train. Further, their soft wavy coats and athletic bodies give them an uncommonly beautiful appearance that speaks of casual elegance. And, of course, their low to non-shedding, allergy friendly coats help make Labradoodles a pleasure to have in your home</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- ============================================== -->
+        <!-- !              GRID GALLERY                    -->
+        <!-- ============================================== -->
+        <div class="contain-to-grid">
+            <div class="gallery">
+                <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4">
+                    <!-- GALLERY -->
+                    {% include "hm_gallery" %}
+                    <!-- End GALLERY -->
+                </ul>
+            </div>
+        </div><!-- full-width	-->
+
+
+
+
+        <!-- ============================================== -->
+        <!-- !                OUR PLEDGE                    -->
+        <!-- ============================================== -->
+        <div class="custom-panel white" id="sec_4">
+            <div class="row">
+                <div class="large-12 columns">
+
+                    <div class="row">
+
+                        <div class="large-6 columns">
+                            <div class="text-center">
+                                <img src="assets/img/pgs/meddleton-family.jpg" width="450" height="700" alt="Meddleton Family" itemprop="image" />
+                            </div>
+                        </div
+                            >
+                        <div class="large-6 columns">
+                            <div class="table">
+                                <div class="cell">
+                                    <h2 class="text-center">Our<br>Pledge</h2>
+                                    <p>As a veterinarian, Mark is particularly focused on breeding the finest Australian Labradoodle puppies with temperament, health and sound structure being the priorities. We do extensive evaluations and testing on our breeding stock to ensure that we are breeding top quality dogs. We breed standard and medium size Labradoodles in various colors of cream, apricot, red, caramel, chocolate and black. We utilize current research to raise them in a way that promotes health and trainability. Structure, temperament , and health are the guiding principles of our breeding program.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+    </section> <!-- END: create section: temperament,   -->
+
+
+    <section class="testimonials"> <!-- START: testimonial section   -->
+
+        <!-- ============================================== -->
+        <!-- !                TESTIMONIALS                  -->
+        <!-- ============================================== -->
+        <div class="custom-panel red" id="sec_5">
+            <div class="row">
+                <div class="large-12 columns">
+                    <h2 class="show-for-sr">TestimonialS</h2>
+                    <h3>Placed Puppies And Their Happy Owners</h3>
+
+                    <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3">
+                        <li itemscope itemtype="http://schema.org/Review">
+                            <div itemprop="itemReviewed">
+                                <span class="show-for-sr">Labradoodle Puppy Named </span><h4><a href="#">Wilson</a></h4>
+                            </div>
+                            <div class="wrap">
+                                <img src="assets/img/testimonials/testimonials_1_600x.jpg" width="600" height="360" alt="" itemprop="thumbnailUrl" />
+                                <h5 class="text-center"><span class="parents">Parents: </span><a href="breeding-dog-liberty">Lilly</a> &amp; <a href="breeding-dog-liberty">Brown Sugar</a></h5>
+                                <blockquote>
+                                    <div itemprop="reviewBody">
+                                        <p>Keb was checked out by our vet on Friday. She said he has the best structure of any labradoodle she has seen...I thank you every day for the breeding and training of this puppy.</p>
+                                    </div>
+                                    <footer>
+                                        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                                            &mdash;<span itemprop="name">Elizabeth Turner</span>
+                                        </span>
+                                    </footer>
+                                </blockquote>
+                            </div><!-- /wrap   -->
+                        </li>
+
+                        <li itemscope itemtype="http://schema.org/Review">
+                            <div itemprop="itemReviewed">
+                                <span class="show-for-sr">Labradoodle Puppy Named </span><h4><a href="#">Wilson</a></h4>
+                            </div>
+                            <div class="wrap">
+                                <img src="assets/img/testimonials/testimonials_2_600x.jpg" width="600" height="360" alt="" itemprop="thumbnailUrl" />
+                                <h5 class="text-center"><span class="parents">Parents: </span><a href="breeding-dog-liberty">Lilly</a> &amp; <a href="breeding-dog-liberty">Brown Sugar</a></h5>
+                                <blockquote>
+                                    <div itemprop="reviewBody">
+                                        <p>Keb was checked out by our vet on Friday. She said he has the best structure of any labradoodle she has seen...I thank you every day for the breeding and training of this puppy.</p>
+                                    </div>
+                                    <footer>
+                                        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                                            &mdash;<span itemprop="name">Elizabeth Turner</span>
+                                        </span>
+                                    </footer>
+                                </blockquote>
+                            </div><!-- /wrap   -->
+                        </li>
+                        <li itemscope itemtype="http://schema.org/Review">
+                            <div itemprop="itemReviewed">
+                                <span class="show-for-sr">Labradoodle Puppy Named </span><h4><a href="#">Wilson</a></h4>
+                            </div>
+                            <div class="wrap">
+                                <img src="assets/img/testimonials/testimonials_3_600x.jpg" width="600" height="360" alt="" itemprop="thumbnailUrl" />
+                                <h5 class="text-center"><span class="parents">Parents: </span><a href="breeding-dog-liberty">Lilly</a> &amp; <a href="breeding-dog-liberty">Brown Sugar</a></h5>
+                                <blockquote>
+                                    <div itemprop="reviewBody">
+                                        <p>Keb was checked out by our vet on Friday. She said he has the best structure of any labradoodle she has seen...I thank you every day for the breeding and training of this puppy.</p>
+                                    </div>
+                                    <footer>
+                                        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                                            &mdash;<span itemprop="name">Elizabeth Turner</span>
+                                        </span>
+                                    </footer>
+                                </blockquote>
+                            </div><!-- /wrap   -->
+                        </li>
+                    </ul>
+                </div>
+            </div><!-- row   -->
+        </div><!-- custom-panel   -->
+
+    </section> <!-- END: testimonial section   -->
+
+
+
+
+
+    <section> <!-- START: make a wish   -->
+
+        <!-- ============================================== -->
+        <!-- !                MAKE A WISH                   -->
+        <!-- ============================================== -->
+
+        <div class="custom-panel white" id="sec_6">
+            <div class="row make-a-wish_logo">
+                <div class="large-12 columns text-center">
+                    <h2 class="show-for-sr">Puppies Donated to New Mexico Chapter of Make A Wish Foundation</h2>
+                    <img src="assets/img/pgs/make-a-wish_1000x.jpg" itemprop="image" alt="Make a Wish New Mexico Chapter" width="1000" height="367" data-interchange="
+                        [assets/img/pgs/make-a-wish_300x.jpg, (default)],
+                        [assets/img/pgs/make-a-wish_300x.jpg, (only screen and (min-width: 1px))],
+                        [assets/img/pgs/make-a-wish_650x.jpg, (only screen and (min-width: 375px))],
+                        [assets/img/pgs/make-a-wish_1000x.jpg, (only screen and (min-width: 750px))],
+                      ">
+                </div>
+            </div><!-- row   -->
+
+            <div class="row">
+
+                <div class="large-10 columns large-centered">
+
+                    <div class="row donated-puppy odd" data-equalizer data-equalizer-mq="large-up">
+                        <div class="large-6 columns" data-equalizer-watch>
+                            <div class="table">
+                                <div class="cell">
+                                    <h3>Duke</h3>
+                                    <h4><span>Parents:</span> <a href="#">Rosalita</a> &amp; <a href="#">Chiago</a></h4>
+                                    <div>
+                                        <p>This sweet boy has found a very special home! As his bloodlines are known to be, Duke is easy-going, smart and polite. We were so pleased to pair him up with Ryan through <a href="#">Make A Wish</a>. Ryan was hoping for a special companion and Duke has proved to be just that for Ryan. We are so happy for them both.</p>
+                                    </div>
+                                </div><!-- cell   -->
+                            </div><!-- table   -->
+                        </div>
+                        <div class="large-6 columns text-center" data-equalizer-watch>
+                            <img src="assets/img/make-a-wish/make-a-wish_labradoodle_1_300x.jpg" width="300" height="400" alt="" itemprop="image" />
+                        </div>
+                    </div><!-- row   -->
+
+                    <div class="row donated-puppy even" data-equalizer data-equalizer-mq="large-up">
+                        <div class="large-6 columns text-center" data-equalizer-watch>
+                            <img src="assets/img/make-a-wish/make-a-wish_labradoodle_2_300x.jpg" width="300" height="400" alt="" itemprop="image" />
+                        </div>
+                        <div class="large-6 columns" data-equalizer-watch>
+                            <div class="table">
+                                <div class="cell">
+                                    <h3>Oliver</h3>
+                                    <h4><span>Parents:</span> <a href="#">Rosalita</a> &amp; <a href="#">Chiago</a></h4>
+                                    <div>Chiago and Rosalita's grandson is following in the family tradition and has found a special home with a very sweet girl. Oliver's girl was searching for a companion who would be sweet, helpful and polite. When Twila met Oliver her eyes never left him. We were honored to help <a href="#">Make A Wish</a> make Twila's wish come true!</div>
+                                </div><!-- cell   -->
+                            </div><!-- table   -->
+                        </div>
+                    </div><!-- row   -->
+
+                </div><!-- large-centered   -->
+
+            </div><!-- row   -->
+        </div><!-- custom-panel   -->
+
+
+    </section> <!-- END: make a wish   -->
+
+
+
+
+
+    <!-- CTA SIGNUP -->
+    {% include "signup" %}
+    <!-- End CTA SIGNUP -->
+
+
+
+
+</main>
+
+
+    <!-- FOOTER -->
+    {% include "footer" %}
+    <!-- End FOOTER -->
+
+{% endblock %}

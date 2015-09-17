@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" itemscope itemtype="http://schema.org/WebPage">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Desert Waves Labradoodles</title>
+  		{{ "/assets/css/app.css" | asset_url | stylesheet_tag }}
+  		<script src="{{ "modernizr.js" | asset_url }}"></script>
+	</head>
+	<body itemscope itemtype="https://schema.org/PetStore">
+		{% block content %}{% endblock %}
+  		{% include "scripts" %}
+	</body>
+</html>

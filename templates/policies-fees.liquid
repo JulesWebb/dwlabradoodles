@@ -1,0 +1,159 @@
+{% block content %}
+
+<!-- =============================================================== -->
+<!-- !   http://lisacatalano.github.io/brackets_course/pc.html       -->
+<!-- !   https://github.com/adobe/brackets/wiki/Brackets-Shortcuts   -->
+<!-- =============================================================== -->
+
+
+    <!-- HEADER -->
+    {% include "header" %}
+    <!-- End HEADER -->
+
+
+<main>
+
+    <section> <!-- START: create section: Hero, Intro, New Family Member, Policies & Fees   -->
+
+
+        <!-- ========================================= -->
+        <!-- !            HERO HEADER       http://codepen.io/dropside/pen/bxhke         -->
+        <!-- ========================================= -->
+        <div class="policiesfees hero">
+            <div class="bkgd-gradient_blk title-bkgd"></div>
+            <div class="row">
+                <div class="large-12 columns table">
+                    <div class="container table">
+                        <div class="cell bottom">
+                            <h2 class="page-title">Policies & Fees</h2>
+                        </div>
+                    </div><!-- row	-->
+                </div><!-- container	-->
+            </div><!-- row	-->
+        </div><!-- hero	-->
+
+
+
+
+
+
+
+        <!-- ============================================== -->
+        <!-- !                  INTRO                       -->
+        <!-- ============================================== -->
+        <div class="custom-panel grey" id="intro">
+            <div class="row">
+                <div class="large-12 columns">
+                    <h3>Excellence in Breeding</h3>
+                    <div>
+                        <p>It takes effort, care and money to produce puppies of the good health, quality and temperament that we have here at Desert Waves Labradoodles. We put time and attention to careful selection of breeding stock. Temperament, health, and coat quality are a priority for us. It is our hope that you will find your dog well worth the price!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <!-- ============================================== -->
+        <!-- !        MEET YOUR NEW FAMILY MEMBER           -->
+        <!-- ============================================== -->
+        <div class="custom-panel red s-byside h-left">
+            <div class="row">
+                <div class="large-12 columns">
+
+                    <div class="row" data-equalizer data-equalizer-mq="large-up">
+                        <div class="large-6 columns" data-equalizer-watch>
+                            <div class="table">
+                            <div class="cell"><h3>Meeting Your New Family Member</h3></div>
+                            </div>
+                        </div>
+                        <div class="large-6 columns" data-equalizer-watch>
+                            <div>
+                                <p>We schedule appointments for each waiting family to come for Puppy Selection at about 6 weeks of age when the puppies are old enough for us to make good matches between puppies and families. We can do this via email and teleconference if necessary, but families should plan to come either for the Selection Day or to pick up their puppy on the Go-Home day (or both!). We value the opportunity to sit down with you and go over any questions you might have about puppy care and your new labradoodle family member.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- ============================================== -->
+        <!-- !           POLICIES AND FEES                  -->
+        <!-- ============================================== -->
+        <div class="custom-panel white policies">
+            <div class="row">
+                <div class="large-10 columns large-centered">
+
+                    <h3>Policies</h3>
+                    <p>We endeavor to breed genetically sound dogs. The genetic testing of our breeding dogs includes:</p>
+                    <ul class="no-bullet cklist">
+                        <li>Hip clearances by PennHip method or OFA</li>
+                        <li>OFA Elbows</li>
+                        <li>CERF eye exam</li>
+                        <li>PRA (prcd) which can be cleared by parentage</li>
+                        <li>And other health tests such as Thyroid and CBC panels</li>
+                    </ul>
+                    <p>Your Desert Waves labradoodle puppy comes with the following: </p>
+                    <ol>
+                        <li>Spay or Neuter Surgery</li>
+                        <li>30 Days of Free Pet Medical Insurance through trupanion</li>
+                        <li>Current Vaccinations and Deworming</li>
+                        <li>Microchip</li>
+                        <li>Pedigree</li>
+                        <li>2 Year Genetic Health Warranty (see our contract for details)</li>
+                        <li>Puppy Collar and Leash</li>
+                        <li>All Medical Records</li>
+                    </ol>
+
+
+                    <h3>Fees</h3>
+                    <h4>A Desert Waves Australian Labradoodle is:
+$2,500.00</h4>
+                    <ul class="disc">
+                        <li>We will ship your dog (if required) at buyer's expense.</li>
+                        <li>Puppies are available to go home at 8 weeks of age. If you cannot take your puppy at that time, you will be charged $10.00 per day for care and feeding of your puppy. (If you require shipping, this fee will be applied until your puppy is able to be shipped safely per reliable carrier's requirements. )</li>
+                    </ul>
+                    <div class="text-center"><a href="DWLabradoodles_purchase_contract.pdf" target="_blank" class="custom-button blue">View Our Contract</a></div>
+
+                    <p class="text-center"><strong>When you're ready to commit <a href="contact reveal-link" data-reveal-id="contact-form">contact</a> us to reserve your Desert Waves Labradoodle.</strong></p>
+                    {% include "modal_form" %}
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </section> <!-- END: create section: Hero, Intro, New Family Member, Policies & Fees    -->
+
+
+
+    <!-- CTA SIGNUP -->
+    {% include "signup" %}
+    <!-- End CTA SIGNUP -->
+
+
+
+
+</main>
+
+
+    <!-- FOOTER -->
+    {% include "footer" %}
+    <!-- End FOOTER -->
+
+{% endblock %}

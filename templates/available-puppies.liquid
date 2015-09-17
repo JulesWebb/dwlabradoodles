@@ -1,0 +1,91 @@
+{% block content %}
+
+<!-- =============================================================== -->
+<!-- !   http://lisacatalano.github.io/brackets_course/pc.html       -->
+<!-- !   https://github.com/adobe/brackets/wiki/Brackets-Shortcuts   -->
+<!-- =============================================================== -->
+
+
+    <!-- HEADER -->
+    {% include "header" %}
+    <!-- End HEADER -->
+
+
+<main>
+
+    <section> <!-- START: create section: Hero, Intro, Litter, Interest in this Litter   -->
+
+
+        <!-- ========================================= -->
+        <!-- !            HERO HEADER       http://codepen.io/dropside/pen/bxhke         -->
+        <!-- ========================================= -->
+        <div class="available-puppies hero">
+            <div class="bkgd-gradient_blk title-bkgd"></div>
+            <div class="row">
+                <div class="large-12 columns table">
+                    <div class="container table">
+                        <div class="cell bottom">
+                            <h2 class="page-title">Labradoodle Puppies For Sale</h2>
+                        </div>
+                    </div><!-- row	-->
+                </div><!-- container	-->
+            </div><!-- row	-->
+        </div><!-- hero	-->
+
+
+
+
+
+
+        <!-- ===================================================== -->
+        <!-- !   INTRO: TEMPERAMENT - HEALTH - SOUND STRUCTURE     -->
+        <!-- ===================================================== -->
+        <div class="custom-panel grey" id="sec_1">
+            <div class="row">
+                <div class="large-12 columns text-center">
+
+                    <h2 class="text-center">Temperament, Health &amp; Sound Structure</h2>
+                    <h3 class="text-center">The Best Dog You'll Ever Love</h3>
+                    <ul class="no-bullet cklist">
+                        <li>Easy to Train</li>
+                        <li>Allergy Friendly</li>
+                        <li>Elegant &amp; Sporty</li>
+                        <li>Soulful &amp; Devoted</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- FUTURE LITTERS -->
+        {% include "available-puppies_litter" %}
+        {% include "available-puppies_litter" %}
+        <!-- End FUTURE LITTERS -->
+
+
+
+
+
+
+
+    </section> <!-- END: create section: Hero, Intro, Future Litter, Interest in this Litter    -->
+
+
+
+    <!-- CTA SIGNUP -->
+    {% include "signup" %}
+    <!-- End CTA SIGNUP -->
+
+
+
+
+</main>
+
+
+    <!-- FOOTER -->
+    {% include "footer" %}
+    <!-- End FOOTER -->
+
+{% endblock %}

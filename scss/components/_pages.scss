@@ -1,0 +1,390 @@
+
+//------------------------------------
+// HOME
+//------------------------------------
+
+.hm.hero {
+    //height: 800px;
+}
+
+// TEMPERAMENT, HEALTH & SOUND STRUCTURE
+#sec_1 {
+    h2 {
+        font-family: $heading-font-family;
+        font-size: 2rem;
+        font-weight: 900;
+        line-height: 1.3;
+        color: scale-color($header-font-color, $lightness: 50%);
+        &:after {
+            @include f_iconmoon (rem-calc(45), '\e606');
+            display: block;
+            margin: 1.5rem 0;
+            color: scale-color($header-font-color, $lightness: 70%);
+        }
+    }
+    h3 {
+        font-family: $heading-font-family;
+        font-size: 1.7rem;
+        font-weight: 700;
+        font-style:italic;
+        color: scale-color($header-font-color, $lightness: 60%);
+        margin: 2.5rem 0;
+    }
+    .cklist {
+        font-size: 1.25rem;
+        font-weight: 700;
+        font-style: italic;
+        li {
+            color: scale-color($header-font-color, $lightness: 70%);
+            &:before {
+                font-size:1.5rem;
+                color: scale-color($header-font-color, $lightness: 40%);
+            }
+        }
+    }
+    @media #{$medium-up} {
+        h2 {
+            font-size: rem-calc(65);
+            line-height: 1.2;
+            &:after {
+                font-size:rem-calc(80);
+                margin: 2.5rem 0;
+            }
+        }
+        h3 {
+            font-size: rem-calc(35);
+        }
+        .cklist {
+            font-size: rem-calc(30);
+            li {
+                &:before {
+                    font-size: rem-calc(31);
+                }
+            }
+        }
+    }
+    @media #{$large-up} {
+        h2 {
+            font-size:5rem;
+        }
+    }
+}
+
+// RAISING LABRADOODLES
+#sec_2 {
+
+    h2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 1;
+        text-align: center;
+        margin: 0 0 2rem 0;
+
+    }
+    p {
+        font-size:1rem;
+        margin: 0;
+    }
+    @media #{$medium-up} {
+        h2 {
+            font-size: rem-calc(80);
+        }
+        p {
+            font-size: rem-calc(21);
+        }
+    }
+    @media #{$large-up} {
+        h2 {
+            text-align: right;
+            margin-right: 2rem;
+        }
+    }
+}
+
+// SECTION 3 (GRID GALLERY) DID NOT NEED AN ID
+// STYLES ARE LOCATED IN MODULES FILE
+
+
+// OUR PLEDGE
+#sec_4 {
+    h2 {
+        font-family: $heading-font-family;
+        font-size: 2rem;
+        font-weight: 900;
+        line-height: 1.2;
+    }
+    p {
+        font-size:1rem;
+        margin: 0;
+    }
+    @media #{$medium-up} {
+        h2 {
+            font-size: rem-calc(80);
+        }
+        p {
+            font-size: rem-calc(21);
+        }
+    }
+    @media #{$large-up} {
+
+    }
+}
+
+
+// TESTIMONIALS
+#sec_5 {
+    h3 {
+        font-family: $body-font-family;
+        font-size:2rem;
+        font-weight: 700;
+        line-height: 1.2;
+        text-align: center;
+        margin: 0 0 4rem 0;
+    }
+    li {
+        margin-top:2rem;
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+    @media #{$medium-up} {
+        h3 {
+            font-size: rem-calc(40);
+            margin: 0 0 4rem 0;
+        }
+        li {
+            margin-top: 0;
+        }
+    }
+    @media #{$large-up} {
+
+    }
+    // OTHER STYLES LOCATED IN MODULES FILE
+}
+
+// MAKE A WISH
+#sec_6 {
+    .make-a-wish_logo {
+        //margin-bottom: 4rem;
+    }
+    .donated-puppy {
+        margin: 4rem 0;
+        &:first-child {
+            margin-bottom: 8rem;
+        }
+        &.odd img {
+            margin-top: 1.5rem;
+        }
+        &.even img {
+            margin-bottom: 1.5rem;
+        }
+        @media #{$large-up} {
+            &.odd img {
+                margin-top: 0;
+            }
+            &.even img {
+                margin-bottom: 0;
+            }
+        }
+    }
+    h3 {
+        font-family: $body-font-family;
+        font-size:2rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 1.2;
+        text-align: center;
+        margin: 0 0 .5rem 0;
+    }
+    h4 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 1.4rem;
+        font-weight: 300;
+        line-height: 1.2;
+        text-align: center;
+        margin-bottom: 2rem;
+        a {
+            color: $body-font-color;
+            border-bottom: 1px solid $body-font-color;
+            &:hover {
+                color:$blue;
+                border-color: $blue;
+            }
+        }
+        span {
+            display: block;
+        }
+    }
+    p {
+        font-size:1rem;
+        margin: 0;
+    }
+    @media #{$medium-up} {
+        h3 {
+            font-size: rem-calc(40);
+        }
+        h4 {
+            font-size: rem-calc(30);
+            margin-bottom: 2rem;
+        }
+        p {
+            font-size: rem-calc(21);
+        }
+    }
+    @media #{$large-up} {
+
+    }
+}
+
+//------------------------------------
+// ABOUT US
+//------------------------------------
+
+// OUR PLEDGE
+#sec_aboutus {
+    h2 {
+        font-family: $heading-font-family;
+        font-size: 2rem;
+        font-weight: 900;
+        line-height: 1.2;
+    }
+    p {
+        font-size:1rem;
+        margin: 0;
+    }
+    @media #{$medium-up} {
+        h2 {
+            font-size: rem-calc(80);
+        }
+        p {
+            font-size: rem-calc(21);
+        }
+    }
+    @media #{$large-up} {
+
+    }
+}
+
+
+//------------------------------------
+// POLICIES AND FEES
+//------------------------------------
+
+.custom-panel.policies {
+    h3 {
+        font-family: $heading-font-family;
+        font-size: 2rem;
+        color: scale-color($header-font-color, $lightness: 35%);
+        font-weight: 900;
+        line-height: 1.2;
+        text-align: center;
+        margin: 3rem 0;
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+    h4 {
+        color:$blue;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin: 0 0 1.5rem 0;
+    }
+    p {
+        font-size:1rem;
+        color: scale-color($header-font-color, $lightness: 35%);
+    }
+    li {
+        font-size:1rem;
+        color: scale-color($header-font-color, $lightness: 35%);
+    }
+//    .contract-cta{
+//        text-align: center;
+//        font-size: 1rem;
+//        font-weight: 700;
+//    }
+    @media #{$medium-up} {
+        h3 {
+            font-size: rem-calc(80);
+        }
+        h4 {
+            font-size:2rem;
+        }
+        p {
+            font-size: rem-calc(21);
+        }
+        ul {
+            margin-left: 2rem;
+            &.disc {
+                margin-left: 4rem;
+            }
+        }
+        ol {
+            margin-left: 4rem;
+        }
+        li {
+            font-size: rem-calc(21);
+        }
+        .contract-cta{
+            font-size: 1.5rem;
+
+        }
+    }
+    @media #{$large-up} {
+
+    }
+}
+
+//------------------------------------
+// CONTACT
+//------------------------------------
+
+.contact-info {
+    color: scale-color($header-font-color, $lightness: 35%);
+    h3 {
+        font-size: 1.75rem;
+        text-align: center;
+        color: scale-color($header-font-color, $lightness: 35%);
+        font-weight: 600;
+        margin-bottom: 3rem;
+    }
+    h4 {
+        font-weight: 600;
+        font-size: 1.25rem;
+        color: scale-color($header-font-color, $lightness: 35%);
+        margin:2rem 0 .5rem 0;
+    }
+    p {
+        font-size:1rem;
+        color: scale-color($header-font-color, $lightness: 35%);
+    }
+    .phone {
+        color: $blue;
+        font-size: 3rem;
+        font-weight: 700;
+        margin-top: 1rem;
+        &:hover {
+            color: $blue;
+        }
+    }
+    @media #{$medium-up} {
+        h3 {
+            //font-size: 2rem;
+        }
+        h4 {
+            //font-size:2rem;
+        }
+        p {
+            //font-size: rem-calc(21);
+        }
+
+    }
+    @media #{$large-up} {
+        h4 {
+            &:first-child {
+                margin-top: 0;
+            }
+        }
+    }
+}

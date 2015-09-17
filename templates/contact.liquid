@@ -1,0 +1,128 @@
+{% block content %}
+
+<!-- =============================================================== -->
+<!-- !   http://lisacatalano.github.io/brackets_course/pc.html       -->
+<!-- !   https://github.com/adobe/brackets/wiki/Brackets-Shortcuts   -->
+<!-- =============================================================== -->
+
+
+    <!-- HEADER -->
+    {% include "header" %}
+    <!-- End HEADER -->
+
+
+<main>
+
+    <section> <!-- START: create section: Hero, Contact Info    -->
+
+
+        <!-- ========================================= -->
+        <!-- !            HERO HEADER       http://codepen.io/dropside/pen/bxhke         -->
+        <!-- ========================================= -->
+        <div class="contact hero">
+            <div class="bkgd-gradient_blk title-bkgd"></div>
+            <div class="row">
+                <div class="large-12 columns table">
+                    <div class="container table">
+                        <div class="cell bottom">
+                            <h2 class="page-title">Contact Desert Waves Labradoodles</h2>
+                        </div>
+                    </div><!-- row	-->
+                </div><!-- container	-->
+            </div><!-- row	-->
+        </div><!-- hero	-->
+
+
+
+
+
+
+        <!-- ============================================== -->
+        <!-- !          CONTACT INFORMATION                 -->
+        <!-- ============================================== -->
+        <div class="custom-panel white contact-info">
+            <div class="row">
+                <div class="large-12 columns">
+                    <h3 class="text-center">Contact Information</h3>
+                    <div class="row">
+                        <div class="large-6 columns">
+                            <form id="myForm" method="post" data-abide>
+
+                                <small class="error">Your full name is required.</small>
+                                <input type="text" placeholder="Full Name" required>
+
+                                <small class="error">An email address is required.</small>
+                                <input type="email" placeholder="username@address.com" required>
+
+                                <small class="error">Your message is required.</small>
+                                <textarea placeholder="Enter your message here" required style="height:200px;"></textarea>
+
+                                <input type="submit" class="custom-button blue" value="Send Message">
+
+                            </form>
+
+                        </div>
+
+                        <div class="large-6 columns">
+                            <div class="row">
+                                <div class="large-8 columns large-centered">
+
+                                    <h4>Questions?</h4>
+                                    <p>Thank you for your interest in Desert Waves Labradoodles.  We would be happy to respond to any inquiries you might have about our delightful dogs. The best way to get in touch with us is.</p>
+
+                                    <h4>Mailing Address</h4>
+                                    <div itemscope itemtype="http://schema.org/PostalAddress">
+                                        <div itemprop="name">Desert Waves Labradoodles</div>
+                                        <div>P.O. Box <span itemprop="postOfficeBoxNumber">2091</span></div>
+                                        <div>
+                                            <span itemprop="addressLocality">Corrales</span>,
+                                            <span itemprop="addressRegion">NM</span>
+                                            <span itemprop="postalCode">87048</span>
+                                            <span class="show-for-sr" itemprop="addressCountry">United States</span>
+
+                                        </div>
+                                    </div>
+                                    <div class="phone" itemprop="telephone" content="+5052804813"><a href="tel:505-280-4813">505.280.4813</a></div>
+
+                                </div>
+                            </div><!-- /row	-->
+
+
+
+                        </div>
+                    </div><!-- /row	-->
+
+
+                </div>
+            </div><!-- /row	-->
+        </div><!-- /contact-info	-->
+
+
+
+
+
+
+
+
+
+
+
+    </section> <!-- END: create section: Hero, Contact Info    -->
+
+
+
+    <!-- CTA SIGNUP -->
+    {% include "signup" %}
+    <!-- End CTA SIGNUP -->
+
+
+
+
+</main>
+
+
+    <!-- FOOTER -->
+    {% include "footer" %}
+    <!-- End FOOTER -->
+
+{% endblock %}
