@@ -6607,7 +6607,8 @@ th.hide-for-touch {
         .navigation-section ul ul.dropdown li:hover {
           background: #ededed; }
         .navigation-section ul ul.dropdown li a {
-          width: auto; }
+          width: auto;
+          display: block; }
   .navigation-section .tab-bar-section {
     z-index: 99;
     left: 0;
@@ -7498,10 +7499,6 @@ th.hide-for-touch {
 .custom-panel.policies li {
   font-size: 1rem;
   color: #6f6f6f; }
-.custom-panel.policies .contract-cta {
-  text-align: center;
-  font-size: 1rem;
-  font-weight: 700; }
 @media only screen and (min-width: 40.0625em) {
   .custom-panel.policies h3 {
     font-size: 5rem; }
