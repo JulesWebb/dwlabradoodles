@@ -1,31 +1,31 @@
-@import "settings",
-	"../bower_components/foundation/scss/foundation";
+// @import "settings",
+//	"../bower_components/foundation/scss/foundation";
 
 // Or selectively include components
-@import
+@import "settings",
 //   "foundation/components/accordion",
-//   "foundation/components/alert-boxes",
-//   "foundation/components/block-grid",
+     "../bower_components/foundation/scss/foundation/components/alert-boxes",
+     "../bower_components/foundation/scss/foundation/components/block-grid",
 //   "foundation/components/breadcrumbs",
 //   "foundation/components/button-groups",
 //   "foundation/components/buttons",
-//   "foundation/components/clearing",
+     "../bower_components/foundation/scss/foundation/components/clearing",
 //   "foundation/components/dropdown",
-//   "foundation/components/dropdown-buttons",
+     "../bower_components/foundation/scss/foundation/components/dropdown-buttons",
 //   "foundation/components/flex-video",
 //   "foundation/components/forms",
 //   "foundation/components/grid",
-//   "foundation/components/inline-lists",
+     "../bower_components/foundation/scss/foundation/components/inline-lists",
 //   "foundation/components/joyride",
 //   "foundation/components/keystrokes",
-//   "foundation/components/labels",
+     "../bower_components/foundation/scss/foundation/components/labels",
 //   "foundation/components/magellan",
 //   "foundation/components/orbit",
 //   "foundation/components/pagination",
-//   "foundation/components/panels",
+     "../bower_components/foundation/scss/foundation/components/panels",
 //   "foundation/components/pricing-tables",
 //   "foundation/components/progress-bars",
-//   "foundation/components/reveal",
+     "../bower_components/foundation/scss/foundation/components/reveal",
 //   "foundation/components/side-nav",
 //   "foundation/components/split-buttons",
 //   "foundation/components/sub-nav",
@@ -33,11 +33,11 @@
 //   "foundation/components/tables",
 //   "foundation/components/tabs",
 //   "foundation/components/thumbs",
-//   "foundation/components/tooltips",
-//   "foundation/components/top-bar",
-//   "foundation/components/type",
-     "../bower_components/foundation/scss/foundation/components/offcanvas";
-//   "foundation/components/visibility";
+     "../bower_components/foundation/scss/foundation/components/tooltips",
+     "../bower_components/foundation/scss/foundation/components/top-bar",
+     "../bower_components/foundation/scss/foundation/components/type",
+     "../bower_components/foundation/scss/foundation/components/offcanvas",
+     "../bower_components/foundation/scss/foundation/components/visibility";
 
 @import
 	"components/mixins",
