@@ -21,9 +21,23 @@ $nav-color: $oil;
 		}
 		.icon-phone {
 			font-size:1.5rem;
+            position: relative;
+            top: 2px;
 			&:before {
 				margin: 0 .5rem 0 1rem;
 			}
+            @media #{$xsmall-only} {
+                font-size:1.5rem;
+                top: 5px;
+
+                a {
+                    font-size: 1.1rem;
+                }
+                &:before {
+                    margin-left: 0;
+                    font-size: 1.1rem;
+                }
+            }
 		}
 		.phone {
 			font-family: 'Open Sans', sans-serif;
