@@ -4699,28 +4699,26 @@ th.hide-for-touch {
     vertical-align: middle;
     min-height: 400px; }
   @media only screen and (min-width: 40.0625em) {
-    .hero {
-      background-attachment: fixed; }
-      .hero.hm {
-        background-image: url("../../assets/img/pgs/hero_hm_labradoodle_medium.jpg"); }
-      .hero.aboutus {
-        background-image: url("../../assets/img/pgs/hero_aboutus_labradoodle_medium.jpg"); }
-      .hero.aboutlabradoodles {
-        background-image: url("../../assets/img/pgs/hero_about-labradoodles_medium.jpg"); }
-      .hero.policiesfees {
-        background-image: url("../../assets/img/pgs/hero_policies-fees_medium.jpg"); }
-      .hero.contact {
-        background-image: url("../../assets/img/pgs/hero_contact_medium.jpg"); }
-      .hero.breeding-dogs-for-sale {
-        background-image: url("../../assets/img/pgs/hero_breeding-dogs-for-sale_medium.jpg"); }
-      .hero.future-litters {
-        background-image: url("../../assets/img/pgs/hero_future-litters_medium.jpg"); }
-      .hero.available-puppies {
-        background-image: url("../../assets/img/pgs/hero_available-puppies_medium.jpg"); }
-      .hero.our-breeding-dogs {
-        background-image: url("../../assets/img/pgs/hero_our-breeding-dogs_medium.jpg"); }
-      .hero .container {
-        min-height: 700px; } }
+    .hero.hm {
+      background-image: url("../../assets/img/pgs/hero_hm_labradoodle_medium.jpg"); }
+    .hero.aboutus {
+      background-image: url("../../assets/img/pgs/hero_aboutus_labradoodle_medium.jpg"); }
+    .hero.aboutlabradoodles {
+      background-image: url("../../assets/img/pgs/hero_about-labradoodles_medium.jpg"); }
+    .hero.policiesfees {
+      background-image: url("../../assets/img/pgs/hero_policies-fees_medium.jpg"); }
+    .hero.contact {
+      background-image: url("../../assets/img/pgs/hero_contact_medium.jpg"); }
+    .hero.breeding-dogs-for-sale {
+      background-image: url("../../assets/img/pgs/hero_breeding-dogs-for-sale_medium.jpg"); }
+    .hero.future-litters {
+      background-image: url("../../assets/img/pgs/hero_future-litters_medium.jpg"); }
+    .hero.available-puppies {
+      background-image: url("../../assets/img/pgs/hero_available-puppies_medium.jpg"); }
+    .hero.our-breeding-dogs {
+      background-image: url("../../assets/img/pgs/hero_our-breeding-dogs_medium.jpg"); }
+    .hero .container {
+      min-height: 700px; } }
   @media only screen and (min-width: 64.0625em) {
     .hero.hm {
       background-image: url("../../assets/img/pgs/hero_hm_labradoodle_large.jpg"); }
